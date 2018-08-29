@@ -17,6 +17,6 @@ mkdir my_lab_report && cd $_
 # Create an empty repository
 git init
 # Initialize the repo with the template
-git fetch --depth=1 -n https://github.com/NE204-Spring2018/lab_report_template.git
+git fetch --depth=1 -n https://github.com/NE204-Fall2018/lab_report_template.git
 git reset --hard $(git commit-tree FETCH_HEAD^{tree} -m "initial commit")
 ```
