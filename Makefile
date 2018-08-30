@@ -19,7 +19,7 @@ validate :
 
 # Run tests on analysis code
 test :
-	nosetests --no-byte-compile test/*
+	nosetests --no-byte-compile
 
 # Automate running the analysis code
 analysis :
